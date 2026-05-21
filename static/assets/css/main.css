@@ -1148,7 +1148,7 @@ section,
   font-weight: 600;
 }
 
-.about .content-wrapper .skills-showcase .section-tag {
+.about .skills-showcase .section-tag {
   display: inline-block;
   padding: 6px 16px;
   background: color-mix(in srgb, var(--accent-color), transparent 90%);
@@ -1161,53 +1161,53 @@ section,
   margin-bottom: 16px;
 }
 
-.about .content-wrapper .skills-showcase h3 {
+.about .skills-showcase h3 {
   font-size: 28px;
   font-weight: 700;
   color: var(--heading-color);
   margin-bottom: 32px;
 }
 
-.about .content-wrapper .skills-showcase .skills-list .skill-item {
+.about .skills-showcase .skills-list .skill-item {
   margin-bottom: 28px;
 }
 
-.about .content-wrapper .skills-showcase .skills-list .skill-item .skill-info {
+.about .skills-showcase .skills-list .skill-item .skill-info {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
 }
 
-.about .content-wrapper .skills-showcase .skills-list .skill-item .skill-info .skill-name {
+.about .skills-showcase .skills-list .skill-item .skill-info .skill-name {
   font-size: 15px;
   font-weight: 600;
   color: var(--heading-color);
 }
 
-.about .content-wrapper .skills-showcase .skills-list .skill-item .skill-info .skill-percent {
+.about .skills-showcase .skills-list .skill-item .skill-info .skill-percent {
   font-size: 15px;
   font-weight: 700;
   color: var(--accent-color);
 }
 
-.about .content-wrapper .skills-showcase .skills-list .skill-item .progress {
+.about .skills-showcase .skills-list .skill-item .progress {
   height: 10px;
   border-radius: 10px;
-  background: color-mix(in srgb, var(--default-color), transparent 94%);
+  background: color-mix(in srgb, var(--default-color), transparent 94%) !important;
   overflow: hidden;
 }
 
-.about .content-wrapper .skills-showcase .skills-list .skill-item .progress .progress-bar {
+.about .skills-showcase .skills-list .skill-item .progress .progress-bar {
   width: 0;
   height: 100%;
-  background: linear-gradient(90deg, var(--accent-color), color-mix(in srgb, var(--accent-color), #ff6b9d 50%));
+  background: linear-gradient(90deg, var(--accent-color), color-mix(in srgb, var(--accent-color), #ff6b9d 50%)) !important;
   border-radius: 10px;
   transition: width 1.5s cubic-bezier(0.65, 0, 0.35, 1);
   position: relative;
 }
 
-.about .content-wrapper .skills-showcase .skills-list .skill-item .progress .progress-bar::after {
+.about .skills-showcase .skills-list .skill-item .progress .progress-bar::after {
   content: "";
   position: absolute;
   top: 0;
@@ -1254,7 +1254,7 @@ section,
     grid-template-columns: 1fr;
   }
 
-  .about .content-wrapper .skills-showcase h3 {
+  .about .skills-showcase h3 {
     font-size: 24px;
   }
 }

@@ -1,5 +1,5 @@
 # 1. Python'un resmi ve hafif sürümünü taban alıyoruz
-FROM python:3.10-slim
+FROM python:3.12-slim
 
 # 2. Konteyner içindeki çalışma klasörümüzü belirliyoruz
 WORKDIR /app
